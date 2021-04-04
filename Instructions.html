@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Instruction</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap")
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url("honecomb.png");
+    background-size: cover;
+    display: flex;
+     padding-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    min-height: 350px;
+    padding: 80px 80px;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0 0 50px 0 black;
+    background-color:rgb(51, 9, 71);
+    justify-content: center;
+}
+.inst{
+    width:80%;
+    padding-left: 10%;
+
+
+}
+
+h1{
+   color:gainsboro;
+}
+
+h2{
+    color: gainsboro;
+}
+
+ul{
+    color: gainsboro;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight:600;
+    list-style-type:circle;
+    list-style-position: inside;
+}
+
+li{
+    margin-top: 10px;
+}
+
+button{
+    background-color: gainsboro;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+}
+
+@media screen and (max-width:550px) {
+    
+}{
+    
+    .container{
+        width:500px;
+    }
+
+    button{
+        width: 40%;
+    }
+      
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="inst">
+           <h1>Welcome to the Quiz</h1>
+           <h2>Instructions:</h2>
+           <ul>
+               <li>5 Questions</li>
+               <li>20 seconds for each question</li>
+               <li>Randome Questions</li>
+               <li>2 lifelines</li>
+               
+           </ul>
+
+           <a href="index.html" ><button type="submit" class="btn btn-danger">Back</button></a>
+        </div>
+       </div>   
+</body>
+
+</html>
